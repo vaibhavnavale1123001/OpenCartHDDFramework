@@ -103,7 +103,6 @@ public class AccountRegistrationPage extends BasePage {
 			return (msgConfirmation.getText());
 		} catch (Exception e) {
 			return (e.getMessage());
-
 		}
 
 	}
